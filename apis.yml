@@ -1,7 +1,19 @@
 aid: storyboard
 name: Storyboard
-description: 'Storyboard is a company surfaced as a portfolio company of crv and added to the API Evangelist
-  network as a stub for enrichment. Sector: media. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Storyboard is a fleet-operations AI platform that gives trucking and logistics
+  companies voice-first, hands-free AI workers for their drivers. The system
+  automates dispatch updates, driver coaching, safety alerts, and compliance
+  monitoring (including hours-of-service and idling) so back-office teams field
+  fewer phone calls and drivers stay hands-free on the road. Founded in 2017 and
+  headquartered in Santa Monica, California, Storyboard began as an enterprise
+  podcast and internal-audio communication platform (a $4.5M seed round led by
+  CRV in 2020) before pivoting to AI-powered fleet operations. It is distributed
+  through in-cab telematics marketplaces such as Platform Science and ISAAC
+  Instruments. Storyboard exposes no public developer API, SDK, or documentation
+  surface; access is via its web and mobile apps at app.storyboard.com. This
+  profile was surfaced as a CRV portfolio company and enriched by the API
+  Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/storyboard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +21,30 @@ x-backed-by:
 - crv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://storyboard.com/hubfs/Featured%20-%20Home%20Page.png
 tags:
 - Company
-- Media
+- Fleet Operations
+- Artificial Intelligence
+- Voice
+- Trucking
+- Logistics
+- Driver Safety
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://storyboard.com/
+- type: Login
+  url: https://app.storyboard.com/
+- type: Support
+  url: https://storyboard.com/speak-with-a-product-specialist
+- type: TermsOfService
+  url: https://storyboard.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://storyboard.com/privacy-policy
+- type: DomainSecurity
+  url: security/storyboard-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
